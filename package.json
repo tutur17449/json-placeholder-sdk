@@ -1,0 +1,40 @@
+{
+  "name": "@tutur17449/json-placeholder-sdk",
+  "version": "1.0.1",
+  "author": "Arthur Hamel",
+  "license": "MIT",
+  "description": "A simple SDK to interact with JSON Placeholder API",
+  "keywords": [
+    "json",
+    "placeholder",
+    "sdk",
+    "api"
+  ],
+  "repository": {
+    "type": "github",
+    "url": "git+https://github.com/tutur17449/json-placeholder-sdk.git"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint ./src --ext .js,.tsx,.ts",
+    "format": "prettier --write --config ./.prettierrc ./src"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^6.7.3",
+    "eslint": "^8.50.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.5.1"
+  },
+  "files": [
+    "dist"
+  ],
+  "types": "./dist/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/tutur17449/json-placeholder-sdk/issues"
+  },
+  "homepage": "https://github.com/tutur17449/json-placeholder-sdk#readme"
+}
